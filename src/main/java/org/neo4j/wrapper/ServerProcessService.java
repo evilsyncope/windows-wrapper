@@ -56,7 +56,7 @@ public class ServerProcessService extends ServerProcess
     @Override
     public void stop()
     {
-        process.stop( 3000, 0 );
+        process.stop( 60000, 0 );
     }
 
 }
